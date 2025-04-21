@@ -2,24 +2,9 @@
 
 ## 使用方法
 
-1. 安装依赖
+1. 将项目 fork 到自己的仓库
 
-```shell
-pip install -r requirements.txt
-```
-
-2. 配置环境变量
-
-```shell
-export USERNAME=your_username
-export PASSWORD=your_password
-```
-
-3. 运行脚本
-
-```shell
-python auto-signin.py
-```
+2. 在项目中设置好`USERNAME`和`PASSWORD`变量，分别为你的账号和密码
 
 ## 注意事项
 
