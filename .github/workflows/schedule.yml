@@ -27,4 +27,4 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
-        run: python sign_in.py
+        run: python auto-signin.py
