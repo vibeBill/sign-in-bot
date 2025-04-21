@@ -2,10 +2,11 @@ import requests
 import ddddocr
 import json
 from io import BytesIO
+import os
 
 # 用户登录信息
-USERNAME = "bearbug"  # 替换为你的用户名
-PASSWORD = "xiaohu92694"  # 替换为你的密码
+USERNAME = os.getenv("USERNAME")
+PASSWORD = os.getenv("PASSWORD")
 
 # API 端点
 LOGIN_URL = "https://999865.xyz/api/user/login"
